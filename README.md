@@ -19,8 +19,8 @@ An interactive, animated Harry Potter-themed trivia game built with **SwiftUI** 
 
 <table>
   <tr>
-    <td><img src="Screenshots/gameplay_light.PNG" alt="Gameplay Light" style="width:20%;"/></td>
-    <td><img src="Screenshots/gameplay_dark.PNG" alt="Gameplay Dark" style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/game_play_light.PNG" alt="Gameplay Light" style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/game_play_dark.PNG" alt="Gameplay Dark" style="width:20%;"/></td>
   </tr>
   <tr>
     <td align="center">*Starting a new trivia round with animated UI*</td>
@@ -34,12 +34,12 @@ An interactive, animated Harry Potter-themed trivia game built with **SwiftUI** 
 
 <table>
   <tr>
-    <td><img src="Screenshots/question1_light.PNG" alt="Question 1 Light"  style="width:20%;"/></td>
-    <td><img src="Screenshots/question1_dark.PNG" alt="Question 1 Dark"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/question1_light.PNG" alt="Question 1 Light"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/question1_dark.PNG" alt="Question 1 Dark"  style="width:20%;"/></td>
   </tr>
   <tr>
-    <td><img src="Screenshots/question2_light.PNG" alt="Question 2 Light"  style="width:20%;"/></td>
-    <td><img src="Screenshots/question2_dark.PNG" alt="Question 2 Dark"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/question2_light.PNG" alt="Question 2 Light"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/question2_dark.PNG" alt="Question 2 Dark"  style="width:20%;"/></td>
   </tr>
   <tr>
     <td align="center">*Question screen with hint & book icons*</td>
@@ -53,8 +53,8 @@ An interactive, animated Harry Potter-themed trivia game built with **SwiftUI** 
 
 <table>
   <tr>
-    <td><img src="Screenshots/score_light.PNG" alt="Score Light"  style="width:20%;"/></td>
-    <td><img src="Screenshots/score_dark.PNG" alt="Score Dark"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/score_light.PNG" alt="Score Light"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/score_dark.PNG" alt="Score Dark"  style="width:20%;"/></td>
   </tr>
   <tr>
     <td align="center">*Recent scores with timestamp*</td>
@@ -68,12 +68,12 @@ An interactive, animated Harry Potter-themed trivia game built with **SwiftUI** 
 
 <table>
   <tr>
-    <td><img src="Screenshots/instructions_light.PNG" alt="Instructions Light"  style="width:20%;"/></td>
-    <td><img src="Screenshots/instructions_dark.PNG" alt="Instructions Dark"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/instructions_light.PNG" alt="Instructions Light"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/instructions_dark.PNG" alt="Instructions Dark"  style="width:20%;"/></td>
   </tr>
   <tr>
-    <td><img src="Screenshots/books_light.PNG" alt="Books Light"  style="width:20%;"/></td>
-    <td><img src="Screenshots/books_dark.PNG" alt="Books Dark"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/books_light.PNG" alt="Books Light"  style="width:20%;"/></td>
+    <td align="center"><img src="Screenshots/books_dark.PNG" alt="Books Dark"  style="width:20%;"/></td>
   </tr>
   <tr>
     <td align="center">*Onboarding and book hints – light mode*</td>
