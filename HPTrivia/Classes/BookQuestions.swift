@@ -13,12 +13,6 @@ class BookQuestions {
         }
     }
     
-    /*init() {
-     let decodedQuestions = decodeQuestions()
-     let organizedQuestions = organizeQuestions(decodedQuestions)
-     populateBooks(with: organizedQuestions)
-     }*/
-    
     // Loads questions from Firebase - falls back to local JSON if necessary
     private func loadQuestions(completion: @escaping ([Question]) -> Void) {
         let ref = Database.database().reference().child("questions")

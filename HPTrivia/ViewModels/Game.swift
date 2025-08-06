@@ -23,7 +23,7 @@ class Game {
         for book in bookQuestions.books {
             if book.status == .active {
                 for question in book.questions {
-                    activeQuestions.append(question)
+                    activeQuestions.append(question) // collecting question from all active books
                 }
             }
         }
@@ -36,12 +36,12 @@ class Game {
         }
         currentQuestion = activeQuestions.randomElement()!
         
-        while(answeredQuestions.contains(currentQuestion.id)) {
+        while(answeredQuestions.contains(currentQuestion.id)) { // avoid duplicates
             currentQuestion = activeQuestions.randomElement()!
         }
         
         answers = []
-        answers.append(currentQuestion.answer)
+        answers.append(currentQuestion.answer) // shuffle answers
         
         for answer in currentQuestion.wrong {
             answers.append(answer)
@@ -63,7 +63,7 @@ class Game {
         let timestamp = Date().timeIntervalSince1970
 
         let ref = Database.database().reference().child("scores").childByAutoId()
-        let scoreData: [String: Any] = [
+        let scoreData: [String: Any] = [ // save score to firebase
             "score": score,
             "timestamp": timestamp
         ]
@@ -81,7 +81,7 @@ class Game {
     }
 
     
-    func loadScores() {
+    func loadScores() { // load the 3 last score for home page
         let ref = Database.database().reference().child("scores")
         ref.queryOrdered(byChild: "timestamp").queryLimited(toLast: 3).observeSingleEvent(of: .value) { snapshot in
             var scores: [ScoreEntry] = []

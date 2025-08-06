@@ -7,7 +7,7 @@ struct Gameplay: View {
     @Environment(\.dismiss) private var dismiss
     @State private var musicPlayer: AVAudioPlayer!
     @State private var sfxPlayer: AVAudioPlayer!
-    @State private var animateViewsIn = false
+    @State private var animateViewsIn = false // control intro animations
     @State private var revealHint = false
     @State private var revealBook = false
     @State private var tappedCorrectAnswer = false
