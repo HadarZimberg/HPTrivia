@@ -4,15 +4,6 @@ An interactive, animated Harry Potter-themed trivia game built with **SwiftUI** 
 
 ---
 
-
-## 🎥 Demo
-
-![Demo GIF](Screenshots/HPTR.gif)
-
-> 👆 Click to watch the gameplay demo
-
----
-
 ## 📸 Screenshots
 
 ### 🎮 Gameplay
